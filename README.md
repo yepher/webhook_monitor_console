@@ -23,7 +23,7 @@ curl -X POST \
 
 ```
 
-## Setup on isolated server with on SSH shell access
+## Setup on isolated server with only SSH shell access
 
 How to get this on your server without the ability to download it form GitHub or ability to SCP it to the host:
 
@@ -35,4 +35,11 @@ How to get this on your server without the ability to download it form GitHub or
 	* `openssl base64 -d -in output.txt -out webhook_monitor_console`
 	* `chmod +x webhook_monitor_console`
 
+
+
+# TODO
+
+* Add ability to specify response type for a given POST request
+* Enable HTTPS support
+* Enable ability to write to log instead or in addition to console output
 
