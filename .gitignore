@@ -1,6 +1,7 @@
 # Binaries for programs and plugins
 output.*
 webhook_monitor_console
+release*
 *.exe
 *.dll
 *.so
